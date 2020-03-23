@@ -22,9 +22,22 @@ h1 {
   padding: 10px;
 }
 
+.container__subcontainer--red {
+  background-color: red;
+}
+
+.container__subcontainer--blue {
+  background-color: blue;
+}
+
+.container h2 {
+  color: white;
+}
+
 .container p {
   font-size: large;
   text-align: center;
+  color: white;
 }
 
 .container p::after {
