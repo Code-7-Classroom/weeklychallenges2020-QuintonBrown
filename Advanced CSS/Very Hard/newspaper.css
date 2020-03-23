@@ -1,0 +1,43 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 4em;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.container__subcontainer {
+  display: inline-block;
+  height: 100vh;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container p {
+  font-size: large;
+  text-align: center;
+}
+
+.container p::after {
+  content: " - Its Corona Time";
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+p {
+  font-size: large;
+  text-align: center;
+}
+/*# sourceMappingURL=newspaper.css.map */

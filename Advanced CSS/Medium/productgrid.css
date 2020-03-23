@@ -1,0 +1,38 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    
+    column-gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:green;
+}
+
+a:visited {
+    text-decoration: none;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.container__image {
+   margin: auto;
+   text-align: center;
+   border: 1px solid black;
+   border-radius: 10%;
+   height: auto;
+   margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bolder;
+}

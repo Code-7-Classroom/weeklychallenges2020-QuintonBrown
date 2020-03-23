@@ -1,0 +1,17 @@
+.checkerboard {
+    display: flex;
+    justify-content: wrap;
+}
+.blacksquare {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid yellow;
+}
+
+.whitesquare {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid red;
+}

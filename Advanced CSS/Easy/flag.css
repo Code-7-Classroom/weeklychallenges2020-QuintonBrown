@@ -1,0 +1,26 @@
+.flag {
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid black;
+    
+}
+
+.stars {
+    height: 21%;
+    width: 21%;
+    transform: translate(0px, 250px);
+}
+.flag__stripe--red {
+    background-color: red;
+    height: 7%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.flag__stripe--white {
+    background-color: white;
+    height: 7%;
+    width: 100%;
+    border: 1px solid green;
+    border-spacing: 0;
+}
