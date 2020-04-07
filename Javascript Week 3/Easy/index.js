@@ -1,11 +1,17 @@
-function exercise(run, swim) {
-    if (run) {
-        console.log("Today's exercise: running");
-    } else if (swim) {
-        console.log("Today's exercise: swimming");
-    } else {
-        console.log("Today is a rest day");
-    }
+// EASY: Write a function that would allow you to do this:
+// var run = exercise('running');
+// console.log(run()); // prints "Today's exercise: running"
+// var swim = exercise('swimming');
+// console.log(swim()); // prints "Today's exercise: swimming"
+
+function exercise(x) {
+  return function() {
+      //return "Today's exercise: " + x;
+      return `Today's exercise: ${x}`
+  };
 }
-var workout = swim,
-console.log(run);
+
+var run = exercise("running");
+console.log(run()); // prints "Today's exercise: running"
+var swim = exercise("swimming");
+console.log(swim()); // prints "Today's exercise: swimming"
