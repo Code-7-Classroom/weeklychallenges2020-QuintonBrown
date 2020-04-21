@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Dom Manipulation Hard</title>
+
+  <style>
+    * {
+      margin: 0;
+
+      padding: 0;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    button {
+      padding: 10px;
+    }
+
+    .bg-red {
+      background-color: red;
+    }
+
+    .bg-white {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <button onclick="window.updateTheBackground('bg-red')">
+    Turn it red!
+  </button>
+
+  <button onclick="window.updateTheBackground('bg-white')">
+    Turn it white!
+  </button>
+
+  <script>
+    /* 
+HARD: Create two buttons, one that when clicked turns the background of the body red. 
+The other, when clicked, turns the body's background color white. 
+Each of the background colors should be defined as class styles and 
+when the buttons are pushed the body's classList is updated to include the correct class for the background. 
+Create a single function that takes an input className and updates the body's classList to ONLY include that className
+*/
+    // Do Stuff Here
+
+    window.updateTheBackground = function (className) {
+
+      if (className === 'bg-white') {
+        removeColor = 'bg-red'
+      } else if (className === 'bg-red') {
+        removeColor = 'bg-white'
+      }
+      document.querySelector('body').classList.remove(removeColor)
+      document.querySelector('body').classList.add(className)
+    }
+
+
+  </script>
+  <script src="index.js"></script>
+</body>
+
+</html>
+
+<!-- const hamburgerIcon = document.querySelector('.hamburger--container')
+const navBar = document.querySelector('.navbar')
+
+hamburgerIcon.addEventListener('click', () => {
+    navBar.classList.toggle('change')
+}) -->
+
+<!-- let removeColor = 'purple';
+if (className === 'bg-white') {
+  removeColor = 'bg-red'
+} else if (className === 'bg-red') {
+  removeColor = 'bg-white'
+}
+document.getElementsByTagName('BODY').classList.remove(removeColor) 
+document.getElementsByTagName('BODY').classList.add(className)  -->
+
+<!-- 
+
+{
+  document.getElementsByClassName(className)
+
+  document.getElementsByClassName('.clickbtn').addEventListener("click", function () {
+      document.body.style.backgroundColor = "red";
+
+      .addEventListener("click", function () {
+      document.body.style.backgroundColor = "red";
+    });
+}; -->

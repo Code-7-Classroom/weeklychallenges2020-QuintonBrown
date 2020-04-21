@@ -52,7 +52,7 @@ function coinCombo(array, total) {
 }
 
 console.log(coinCombo([1, 2, 5], 11));
-
+console.log(coinCombo([2], 3));
 // if total of array < total return total - array total
 //check if [0] 
 
