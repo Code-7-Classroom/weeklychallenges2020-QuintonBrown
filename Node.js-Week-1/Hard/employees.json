@@ -1,0 +1,64 @@
+{
+    "students":[
+        {
+            "name" : "Albert",
+            "id" : 1,
+            "salary" : 9,
+            "job" : "NBA"
+        },
+        {
+            "name" : "Bobby",
+            "id" : 2,
+            "salary" : 80,
+            "job" : "NHL"
+        },
+        {
+            "name" : "Carlton",
+            "id" : 3,
+            "salary" : 700,
+            "job" : "NFL"
+        },
+        {
+            "name" : "Devon",
+            "id" : 4,
+            "salary" : 6000,
+            "job" : "MLB"
+        },
+        {
+            "name" : "Edwin",
+            "id" : 5,
+            "salary" : 50000,
+            "job" : "MLS"
+        },
+        {
+            "name" : "Freddie",
+            "id" : 6,
+            "salary" : 400000,
+            "job" : "CFL"
+        },
+        {
+            "name" : "Gary",
+            "id" : 7,
+            "salary" : 3000000,
+            "job" : "PGA"
+        },
+        {
+            "name" : "Henry",
+            "id" : 8,
+            "salary" : 20000000,
+            "job" : "ATP"
+        },
+        {
+            "name" : "Isaiah",
+            "id" : 9,
+            "salary" : 100000000,
+            "job" : "IRT"
+        },
+        {
+            "name" : "Jacob",
+            "id" : 10,
+            "salary" : 979868574,
+            "job" : "NIFL"
+        }
+    ]
+}
