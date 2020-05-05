@@ -1,0 +1,64 @@
+{
+    "employees":[
+        {
+            "name" : "Albert",
+            "id" : 1,
+            "salary" : 9,
+            "departmentName" : "NBA"
+        },
+        {
+            "name" : "Bobby",
+            "id" : 2,
+            "salary" : 80,
+            "departmentName" : "NHL"
+        },
+        {
+            "name" : "Carlton",
+            "id" : 3,
+            "salary" : 700,
+            "departmentName" : "NFL"
+        },
+        {
+            "name" : "Devon",
+            "id" : 4,
+            "salary" : 6000,
+            "departmentName" : "MLB"
+        },
+        {
+            "name" : "Edwin",
+            "id" : 5,
+            "salary" : 50000,
+            "departmentName" : "MLS"
+        },
+        {
+            "name" : "Freddie",
+            "id" : 6,
+            "salary" : 400000,
+            "departmentName" : "CFL"
+        },
+        {
+            "name" : "Gary",
+            "id" : 7,
+            "salary" : 3000000,
+            "departmentName" : "PGA"
+        },
+        {
+            "name" : "Henry",
+            "id" : 8,
+            "salary" : 20000000,
+            "departmentName" : "ATP"
+        },
+        {
+            "name" : "Isaiah",
+            "id" : 9,
+            "salary" : 100000000,
+            "departmentName" : "IRT"
+        },
+        {
+            "name" : "Jacob",
+            "id" : 10,
+            "salary" : 979868574,
+            "departmentName" : "NIFL"
+        }
+    ]
+}

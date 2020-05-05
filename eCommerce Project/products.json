@@ -1,0 +1,200 @@
+{
+    "products" : [
+    {
+        "title" : "Polo 11 Heated Jacket",
+        "cover" : "X",
+        "description" : "The jacket's groundbreaking onboard heating system uses fully flexible, featherweight carbon and silver ink to provide the wearer with up to 11 hours of heat, controlled in real time by the exclusive RL Heat app and powered by a signature Polo-branded Mophie battery pack, included.",
+        "price" : 1098.00,
+        "category" : "jacket"
+    },
+    {
+        "title" : "Graphic Crew Sock 3-Pack",
+        "cover" : ,
+        "description" : "This three-pack of crew socks features colorful flags and playful stripes for a look that is purely Polo.",
+        "price" : 15.00,
+        "category" : "sock"
+    },
+    {
+        "title" : "Starla Calfskin Oxford",
+        "cover" : "X",
+        "description" : "The Starla updates classic spectator shoes with a slightly pointed, more feminine toe shape. Made in Italy, this style features a two-tone upper rendered in supple calfskin and finished with intricate perforations. A Blake welt construction ensures this lightweight, flexible, and durable shoe can be resoled if necessary.",
+        "price" : 895.00,
+        "category" : "shoe"
+    },
+    {
+        "title" : "Knit Cotton-Blend Blazer",
+        "cover" : ,
+        "description" : "This double-knit blazer features a classic three-button silhouette and gold-tone crest-embossed buttons for a polished layer that's equally cute paired with jeans or a dress.",
+        "price" : 135.00,
+        "category" : "X"
+    },
+    {
+        "title" : "Sullivan Slim Embroidered Jean",
+        "cover" : "X",
+        "description" : "Trim at the seat and the thigh and with a tapered leg, the Sullivan Slim offers a lean silhouette with room to move. Crafted from right-hand twill, these jeans get the Polo treatment with an embroidered motif of our signature Pony.",
+        "price" : 125.00,
+        "category" : "pants"
+    },
+    {
+        "title" : "Tie-Dye One-Piece Swimsuit",
+        "cover" : ,
+        "description" : "This one-piece swimsuit achieves a cool summertime look with a vibrant tie-dye print and sporty "Polo" logo.",
+        "price" : 65.00,
+        "category" : "swimwear"
+    },
+    {
+        "title" : "Polo Bear Cotton Sweater",
+        "cover" : "X",
+        "description" : "Dressed in signature style, the intarsia-knit Polo Bear adds an adorable touch to this lightweight cotton sweater.",
+        "price" : 135.00,
+        "category" : "sweater"
+    },
+    {
+        "title" : "Denim Graphic Trucker Jacket",
+        "cover" : ,
+        "description" : "This lightweight trucker jacket gets a graphic update with a mix of signature embroidery, patches, and prints—including an archival-inspired tiger at the back.",
+        "price" : <s>$115.00</s> $80.99,
+        "category" : "jacket"
+    },
+    {
+        "title" : "Tie-Dye Polo Shirtdress",
+        "cover" : "X",
+        "description" : "Crafted from stretch-infused cotton, this casual dress takes its cues from the timeless silhouette of our signature Polo shirt. It's created using a multilevel tie-dye process with hand-detailing, and features a vibrant palette for island-inspired style.",
+        "price" : 168.00,
+        "category" : "dress"
+    },
+    {
+        "title" : "RLX Tech Sneaker",
+        "cover" : ,
+        "description" : "In true RLX spirit, this athletic sneaker is designed with the perfect blend of form and function. A color-blocked design and RLX branding make a bold statement, while the outer cage and distinctive EVA outsole add performance properties.",
+        "price" : 175.00,
+        "category" : "shoe"
+    },
+    {
+        "title" : "Leather Mini Sloane Satchel",
+        "cover" : "X",
+        "description" : "Exquisitely crafted from supple Italian leather, our Sloane mini satchel is designed with clean lines for a structured silhouette. Tonal stitching, sleek pocketing, and minimalist hardware enhance the refined style of this petite bag.",
+        "price" : 398.00,
+        "category" : "handbag"
+    },
+    {
+        "title" : "Ralph Rain Boot",
+        "cover" : ,
+        "description" : "This classic rubber rain boot is printed with our signature Big Pony and comes in a bright hue.",
+        "price" : 55.00,
+        "category" : "shoe"
+    },
+    {
+        "title" : "Patchwork Cotton Mesh Polo",
+        "cover" : "X",
+        "description" : "Inspired by a men's Polo shirt, this piece artfully combines a colorful patchwork design and cropped logos.",
+        "price" : 49.50,
+        "category" : "shirt"
+    },
+    {
+        "title" : "Big Pony Cotton Terry Pant",
+        "cover" : ,
+        "description" : "This casual-day staple gets the Polo treatment with our iconic Big Pony and lightweight French terry fabric.",
+        "price" : <s>$45.00</s> $21.99,
+        "category" : "pants"
+    },
+    {
+        "title" : "Traveler Swim Trunk",
+        "cover" : "X",
+        "description" : "Vibrant color-blocking and an athletic-inspired logo bring pure Polo style to these swim trunks.",
+        "price" : 59.50,
+        "category" : "swimwear"
+    },
+    {
+        "title" : "Thorton Doodle Canvas Sneaker",
+        "cover" : ,
+        "description" : "Our canvas Thorton sneaker is updated for the season with vintage varsity-inspired graphics of a tiger and bear mascot ready to hit the field for the big game. This sporty style is finished with leather trim at the heel and vamp and a colorful contrast strip along the outsole.",
+        "price" : 45.00,
+        "category" : "shoe"
+    },
+    {
+        "title" : "Flag Cotton Chino Cap",
+        "cover" : "X",
+        "description" : "Made from durable cotton twill, this baseball cap features American flag–inspired embroidery and a bold contrasting color under the bill.",
+        "price" : 49.50,
+        "category" : "hat"
+    },
+    {
+        "title" : "Patchwork Polo Dress & Bloomer",
+        "cover" : ,
+        "description" : "Featuring colorful oxford patches and a pretty eyelet hem, this puff-sleeve Polo dress and bloomer set is an ideal choice for special occasions or playdates.",
+        "price" : 45.00,
+        "category" : "dress"
+    },
+    {
+        "title" : "Turtleneck 2-Piece Gift Set",
+        "cover" : "X",
+        "description" : "Upgrade her winter wardrobe with this gift set featuring a classic cable-knit sweater cut from medium-weight combed cotton and a chunky wool-blend turtleneck finished with an intarsia-knit snowflake.",
+        "price" : <s>$170.00</s> $127.99,
+        "category" : "shirt"
+    },
+    {
+        "title" : "Tie-Dye Cotton Poplin Shirt",
+        "cover" : ,
+        "description" : "Exquisitely crafted from supple Italian leather, our Sloane mini satchel is designed with clean lines for a structured silhouette. Tonal stitching, sleek pocketing, and minimalist hardware enhance the refined style of this petite bag.",
+        "price" : 49.50,
+        "category" : "shirt"
+    },
+    {
+        "title" : "Crest French Terry Blazer",
+        "cover" : "X",
+        "description" : "Cut from soft French terry, this figure-skimming blazer is accented with contrasting grosgrain trim and an embroidered patch at the chest.",
+        "price" : 298.00,
+        "category" : "jacket"
+    },
+    {
+        "title" : "Legging 3-Piece Gift Set",
+        "cover" : ,
+        "description" : "She'll be ready for the season's festivities with this legging set, which includes a luxe velvet pair and two stretch jersey versions in classic plaid and charming Fair Isle. Our "Ralph Lauren"–embossed box makes them great for gifting.</p>",
+        "price" : <s>$90.00</s> $67.99,
+        "category" : "pants"
+    },
+    {
+        "title" : "Wool Barathea Tuxedo",
+        "cover" : "X",
+        "description" : "Made in Italy from wool barathea, this classic tuxedo features peak lapels and contrasting trim at the undercollar.",
+        "price" : 725.00,
+        "category" : "tuxedo"
+    },
+    {
+        "title" : "Polo Bear Cotton Shirtdress",
+        "cover" : ,
+        "description" : "This dress puts a sweet spin on summer style with crisp cotton seersucker and an allover print featuring our iconic mascot.",
+        "price" : 75.00,
+        "category" : "dress"
+    },
+    {
+        "title" : "Dubai Bear Jersey T-Shirt",
+        "cover" : "X",
+        "description" : "Ralph Lauren's Polo Bear has become a worldwide cultural icon since he was first introduced in 1991, and this season he's touring the globe. On this Classic Fit T-shirt, he stands in front of a cityscape while sporting a signature Polo shirt inspired by the City of Gold.",
+        "price" : 55.00,
+        "category" : "shirt"
+    },
+    {
+        "title" : "Wool-Blend Princess Coat",
+        "cover" : ,
+        "description" : "Made with wool and velvet accents, this princess coat makes a sophisticated addition to her cold weather outerwear.",
+        "price" : 495.00,
+        "category" : "jacket"
+    },
+    {
+        "title" : "Striped Cotton Polo Shortall",
+        "cover" : "X",
+        "description" : "Our easy-to-care-for cotton mesh makes this shortall a smart essential, while colorful stripes add a playful Polo twist.",
+        "price" : 39.50,
+        "category" : "baby"
+    },
+    {
+        "title" : "Patchwork Cotton Pant",
+        "cover" : ,
+        "description" : "Finely crafted from soft cotton, these pants showcase an intricate patchwork motif made up of 49 different patterns. The hand-sewn construction ensures each piece is unique.",
+        "price" : 498.00,
+        "category" : "pants"
+    }
+    ]
+}

@@ -16,16 +16,16 @@ app.get('/employees', (req, res) => {
 app.get('/employees/:id', (req, res) => {
 
     const sData = data.employees.find(function (employee) {
-        console.log(student.id)
+        console.log(employee.id)
 
         return parseInt(req.param.id) === employee.id
     })
 
-    if (!sData) {
+    if (!eData) {
         res.status(404).send(`Could not find the employee id`)
     }
 
-    res.send(sData)
+    res.send(eData)
 
 
 })
