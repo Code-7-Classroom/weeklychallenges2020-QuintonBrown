@@ -2,70 +2,70 @@
     "products" : [
     {
         "title" : "Polo 11 Heated Jacket",
-        "cover" : "X",
+        "cover" : "images/Polo-11-Heated-Jacket.jpeg",
         "description" : "The jacket's groundbreaking onboard heating system uses fully flexible, featherweight carbon and silver ink to provide the wearer with up to 11 hours of heat, controlled in real time by the exclusive RL Heat app and powered by a signature Polo-branded Mophie battery pack, included.",
         "price" : 1098.00,
         "category" : "jacket"
     },
     {
         "title" : "Graphic Crew Sock 3-Pack",
-        "cover" : ,
+        "cover" : "",
         "description" : "This three-pack of crew socks features colorful flags and playful stripes for a look that is purely Polo.",
         "price" : 15.00,
         "category" : "sock"
     },
     {
         "title" : "Starla Calfskin Oxford",
-        "cover" : "X",
+        "cover" : "",
         "description" : "The Starla updates classic spectator shoes with a slightly pointed, more feminine toe shape. Made in Italy, this style features a two-tone upper rendered in supple calfskin and finished with intricate perforations. A Blake welt construction ensures this lightweight, flexible, and durable shoe can be resoled if necessary.",
         "price" : 895.00,
         "category" : "shoe"
     },
     {
         "title" : "Knit Cotton-Blend Blazer",
-        "cover" : ,
+        "cover" : "",
         "description" : "This double-knit blazer features a classic three-button silhouette and gold-tone crest-embossed buttons for a polished layer that's equally cute paired with jeans or a dress.",
         "price" : 135.00,
         "category" : "X"
     },
     {
         "title" : "Sullivan Slim Embroidered Jean",
-        "cover" : "X",
+        "cover" : "",
         "description" : "Trim at the seat and the thigh and with a tapered leg, the Sullivan Slim offers a lean silhouette with room to move. Crafted from right-hand twill, these jeans get the Polo treatment with an embroidered motif of our signature Pony.",
         "price" : 125.00,
         "category" : "pants"
     },
     {
         "title" : "Tie-Dye One-Piece Swimsuit",
-        "cover" : ,
+        "cover" : "",
         "description" : "This one-piece swimsuit achieves a cool summertime look with a vibrant tie-dye print and sporty "Polo" logo.",
         "price" : 65.00,
         "category" : "swimwear"
     },
     {
         "title" : "Polo Bear Cotton Sweater",
-        "cover" : "X",
+        "cover" : "",
         "description" : "Dressed in signature style, the intarsia-knit Polo Bear adds an adorable touch to this lightweight cotton sweater.",
         "price" : 135.00,
         "category" : "sweater"
     },
     {
         "title" : "Denim Graphic Trucker Jacket",
-        "cover" : ,
+        "cover" : "",
         "description" : "This lightweight trucker jacket gets a graphic update with a mix of signature embroidery, patches, and prints—including an archival-inspired tiger at the back.",
-        "price" : <s>$115.00</s> $80.99,
+        "price" : 115.00,
         "category" : "jacket"
     },
     {
         "title" : "Tie-Dye Polo Shirtdress",
-        "cover" : "X",
+        "cover" : "",
         "description" : "Crafted from stretch-infused cotton, this casual dress takes its cues from the timeless silhouette of our signature Polo shirt. It's created using a multilevel tie-dye process with hand-detailing, and features a vibrant palette for island-inspired style.",
         "price" : 168.00,
         "category" : "dress"
     },
     {
         "title" : "RLX Tech Sneaker",
-        "cover" : ,
+        "cover" : "",
         "description" : "In true RLX spirit, this athletic sneaker is designed with the perfect blend of form and function. A color-blocked design and RLX branding make a bold statement, while the outer cage and distinctive EVA outsole add performance properties.",
         "price" : 175.00,
         "category" : "shoe"
