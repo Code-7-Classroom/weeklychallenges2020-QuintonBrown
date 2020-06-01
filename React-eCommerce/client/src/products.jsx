@@ -4,7 +4,7 @@ const items = require('./data/products.json');
 
 
 const Products = () => {
-     
+
     const [products, setProducts] = useState(items)
     const [category, setCategory] = useState("all")
     const [min, setMin] = useState(0)
@@ -29,18 +29,18 @@ const Products = () => {
 
         if (category !== "all") {
             filteredProducts = filteredProducts.filter(product => product.category === category)
-        } 
+        }
         if (min !== "") {
             filteredProducts = filteredProducts.filter(product => product.price > min)
         }
         if (max !== "") {
             if (max === "") {
                 return setProducts(items)
-                 };
+            };
             filteredProducts = filteredProducts.filter(product => product.price < max)
         }
         setProducts(filteredProducts)
-    },[category, min, max])
+    }, [category, min, max])
     return (
         <React.Fragment>
             <form className="filter">
@@ -62,34 +62,27 @@ const Products = () => {
 
 
                 </select>
-                <input type="number" name="minPrice" onChange={(e) => handleFilterChange(e, "min")} placeholder="Min Price"/>
-                <input type="number" name="maxPrice" onChange={(e) => handleFilterChange(e, "max")} placeholder="Max Price"/>
+                <input type="number" name="minPrice" onChange={(e) => handleFilterChange(e, "min")} placeholder="Min Price" />
+                <input type="number" name="maxPrice" onChange={(e) => handleFilterChange(e, "max")} placeholder="Max Price" />
             </form>
-                    <div className="master--card">
-                        {products.map((item, key) => {
-                            return (
-                                <div className="card">
-                                    <h2 className="title">{item.title}</h2>
-                                    <img src={item.cover} alt={item.alt} />
+            <div className="master--card">
+                {products.map((item, key) => {
+                    return (
+                        <div className="card">
+                            <h2 className="title">{item.title}</h2>
+                            <img src={item.cover} alt={item.alt} />
 
-                                    <p>Polo Ralph Lauren</p>
-                                    <p className="description">{item.description}</p>
-                                    <p className="price">${item.price}</p>
-                                </div>
-                            )
-                        })}
-                    </div>
-
-                    <footer>
-                        <div className="copyright footer__products">
-                            <a href="https://www.instagram.com/ralphlauren/" target="_blank" rel="noopener" className="fa fa-instagram fa-3x" aria-label="goes to instagram.com"></a>
-                            <a href="https://www.facebook.com/RalphLauren/" target="_blank" rel="noopener" className="fa fa-twitter fa-3x" aria-label="goes to twitter.com"></a>
-                            <a href="https://twitter.com/ralphlauren" target="_blank" rel="noopener" className="fa fa-facebook-official fa-3x" aria-label="goes to facebook.com"></a>
+                            <p>Polo Ralph Lauren</p>
+                            <p className="description">{item.description}</p>
+                            <p className="price">${item.price}</p>
                         </div>
-                    </footer>
-    </React.Fragment>
+                    )
+                })}
+            </div>
+        </React.Fragment>
     )
-  }
+}
 
 
 export default Products
+
