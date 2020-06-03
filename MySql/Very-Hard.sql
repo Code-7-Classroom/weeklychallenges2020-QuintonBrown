@@ -22,6 +22,39 @@ VALUES ("Ford", "Taurus", "1977"),
 ("Dodge", "Durango", "1985"),
 ("Jeep", "Rubicon", "1999");
 
+-- Write a query to add in prices and colors
+ALTER TABLE favCars 
+ADD (carPrice INT,
+	carColor VARCHAR(255));
+    
+UPDATE favCars
+SET carPrice = 1000, carColor = 'White'
+WHERE carID = 1;
+UPDATE favCars
+SET carPrice = 2000, carColor = 'Red'
+WHERE carID = 2;
+UPDATE favCars
+SET carPrice = 3000, carColor = 'Green'
+WHERE carID = 3;
+UPDATE favCars
+SET carPrice = 4000, carColor = 'Black'
+WHERE carID = 4;
+UPDATE favCars
+SET carPrice = 5000, carColor = 'Yellow'
+WHERE carID = 5;
+UPDATE favCars
+SET carPrice = 6000, carColor = 'Blue'
+WHERE carID = 6;
+UPDATE favCars
+SET carPrice = 7000, carColor = 'Pink'
+WHERE carID = 7;
+UPDATE favCars
+SET carPrice = 8000, carColor = 'Orange'
+WHERE carID = 8;
+UPDATE favCars
+SET carPrice = 9000, carColor = 'Purple'
+WHERE carID = 9;
+
 -- Write a query to put the Make and Model together in one column
 SELECT CONCAT(carMake, " ", carModel) AS carMakeAndModel FROM favCars;
 
